@@ -1,0 +1,7 @@
+.card {
+    list-style: none;
+    width: 280px;
+    height: 260px;
+    background: #004D91;
+    position: relative;
+}
