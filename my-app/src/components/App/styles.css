@@ -1,0 +1,157 @@
+.page {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; 
+}
+
+.header {
+  width: 100%;
+  padding: 36px 0 56px;
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.navigation {
+  margin: 0 60px;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 60px;
+  padding: 0;
+}
+
+.list__item {
+  margin: 0;
+}
+
+.list__link {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.slider {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider__scroll_right {
+  border-right: 3px solid #fff;
+  margin-left: 60px;
+  height: 80px;
+  display: inline-block;
+}
+
+.slider__scroll_left {
+  border-left: 3px solid #fff;
+  height: 80px;
+  margin-right: 60px;
+  display: inline-block;
+
+}
+
+.slider__scroll_left:hover,
+.slider__scroll_right:hover {
+  height: 560px;
+}
+
+
+.conteiner-center {
+  padding: 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+  font-size: 80px;
+  color: #fff;
+}
+
+.cursor-round {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #ffcc2a;
+}
+
+.round {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid #ffcc2a;
+  position: absolute;
+  top: 14px;
+  left: 15px;
+}
+
+.arrow_right,
+.arrow_left {
+  border: solid #ffcc2a;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 25px;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.arrow_right {
+  transform: rotate(-45deg);
+}
+
+.arrow_left {
+  transform: rotate(135deg);
+}
+
+
+
+
+
+
+/* .carusel {
+  width: 100%;
+  height: 470px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+
+.carusel__img {
+  width: 350px;
+  height: 100%;
+  background-image: url('./images/photo-9.jpg');
+  overflow: hidden;
+}
+
+.info {
+  width: 100%;
+  padding: 85px 0;
+  text-align: center;
+}
+
+.info__title {
+  font-size: 24px;
+  color: black;
+}
+
+/* font-family: neue-haas-grotesk-display,sans-serif; */
+/* background: #ffcc2a; */
+
+
+
+
